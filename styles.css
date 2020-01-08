@@ -1,0 +1,38 @@
+/*This code has been copied from FreeCodeCamp. Here's the link: https://www.freecodecamp.org/forum/t/freecodecamp-challenge-guide-create-a-gradual-css-linear-gradient/301047; */
+
+  div {
+    border-radius: 20px;
+    width: 70%;
+    height: 300px;
+    margin: 50px auto;
+    background: linear-gradient(25deg, #CCFFFF, #FFCCCC); 
+  }
+
+  .green-text {
+    color: green;
+    position: relative;
+    bottom: 2px;
+    top: 160px;
+    left: 16%;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p2 {
+  	position: fixed;
+    bottom: 60px;
+    top: 228px;
+    left: 16%;
+  }
+
+  .resize {
+  	width: 180px;
+  	height: auto;
+
+  }
+
+  a:hover
+
+
