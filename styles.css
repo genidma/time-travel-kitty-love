@@ -1,15 +1,21 @@
 /*This code has been copied from FreeCodeCamp. Here's the link: https://www.freecodecamp.org/forum/t/freecodecamp-challenge-guide-create-a-gradual-css-linear-gradient/301047; */
 
-  div {
+   div{
     border-radius: 20px;
     width: 70%;
-    height: 300px;
-    margin: 50px auto;
-    background: linear-gradient(25deg, #CCFFFF, #FFCCCC); 
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      90deg,
+      yellow 0px,
+      blue 40px,
+      green 40px,
+      red 80px
+    );
   }
 
-  .green-text {
-    color: green;
+  .Blue-text {
+    color: blue;
     position: relative;
     bottom: 2px;
     top: 160px;
